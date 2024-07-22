@@ -1,0 +1,59 @@
+ main{
+   height: 85vh;
+   width: 100vw;
+    
+}
+.media{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   z-index: -1;
+}
+.videoText{
+    position: absolute;
+    margin: -30rem 20rem;
+    height:60vh ;
+}
+.searchText{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  margin:12rem 0 -14rem 5rem ;
+}
+.inputDiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15rem 5rem 15rem 1rem;
+    background-color: white;
+    opacity: 0.7;
+    color:black;
+    width: 100%;
+   border-radius: 2rem;
+   padding:0.5rem 0.2rem;
+}
+.search-button{
+   border-radius: 0.8rem;
+   width: 5rem;
+}
+.search-button:hover{
+    background-color: rgb(89, 89, 171);
+}
+.margin{
+    margin: 0.2rem;
+}
+
+.icons{
+    margin: -15rem 1rem;
+    display: flex;
+   flex-direction: row;
+   font-size: 1rem;
+    padding: 1rem;
+}
+.icon{
+    color: black;
+}
+.icon:hover{
+    color: white;
+}
+

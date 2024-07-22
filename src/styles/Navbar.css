@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+  
+    display: flex;
+    justify-content: space-between;
+    background-color: #8d8de08f;
+    width: 100vw;
+}
+.logo{
+    margin:  1rem;
+
+}
+.menu {
+margin: 1.5rem 1rem;
+}
+.menu a{
+    position: relative;
+    margin: 1rem 1rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    z-index: 1;
+}
+.btn{
+    margin: 1rem 3rem 1rem 1rem;
+    background-color: rgb(89, 89, 171);
+    height: 50%;
+    width: 70%;
+}
+.btn:hover{
+color: black;
+background:transparent;
+}

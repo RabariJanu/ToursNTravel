@@ -1,0 +1,108 @@
+.footer{
+        padding: 2.5rem 0;
+        position:relative;
+        overflow:hidden ;
+    
+    }
+.video{
+    position:absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    }
+.secContent{
+    margin: 0;
+   display: flex;
+   justify-content: space-evenly;
+    }
+.secContent .contactDiv{
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+.contactDiv .contactText{
+    margin:  2rem 1.5rem 1rem 1.5rem  ;
+
+    }
+.secContent .inputFooter{
+    display:flex;
+    height: 2.5rem;
+    margin: 2.5rem 1.5rem 1rem 0;
+    }
+
+.inputFooter input {
+    border-radius: 0.5rem;
+   margin-right: 1rem;
+   background: transparent;
+    }
+.inputFooter .sendBtn{
+    border-radius:1rem;
+    background: rgb(62, 62, 133);
+    width: 5rem;
+    }
+.container{
+        display:flex;
+        justify-content: space-between;
+            background-color: #fff;
+            opacity: 0.7;
+            width: 80%;
+            height: 80%;
+            margin: 0 5rem 1rem 10rem;
+            border-radius: 2rem;
+     }
+        .grid{
+        display:flex;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        width: 40%;
+        margin:0 1rem;
+    }
+
+    .grid h1{
+        display: flex;
+        align-items: center;
+        margin: 0.3rem;
+    }
+    .grid p{
+        font-size: 1.1rem;
+    }
+
+    .flex{
+        display:flex;
+        align-items: center;
+        margin: 0.8rem;
+    }
+    .flexicon{
+        font-size: 1rem;
+        color: rgb(26, 25, 25);
+        margin: 0.2rem;
+    }
+    .flexicon:hover{
+        color:rgb(163, 105, 105);
+    }
+    .our{
+        display: flex;
+        margin-right: 7rem;
+        margin-top: 4rem;
+    }
+
+     .one, .two  , .three{
+         display: flex;
+         flex-direction: column;
+        font-size: 1rem;
+        margin: 1rem;
+     }
+     .one span,.two span ,.three span{
+        font-weight: 600;
+     }
+     .one a , .two a ,.three a{
+         text-decoration: none;
+         color: #111111;
+     }
+      
+     .one a:hover , .two a:hover , .three a:hover{
+         background:transparent ;
+         padding: 0.1rem;
+     } 
+ 

@@ -1,0 +1,39 @@
+.bagpack{
+    height: 80vh;
+    margin-top:1rem ;
+    display: flex;
+    justify-content:space-evenly;
+    box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.5);
+
+}
+.bag{
+   height: 80vh;
+   width: 100%;
+   border-radius: 5rem;
+}
+.bag img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5rem;
+    margin-bottom: 2rem;
+}
+.bag img:hover{
+  opacity: 0.5;
+}
+
+.cont{
+   display:flex;
+   flex-direction: column;
+  justify-content: space-evenly;
+}
+.quote{
+    margin: 1.5rem;
+    font-size: 1rem;
+   
+}
+.description{
+    margin: 1.5rem;
+    font-size: 1rem;
+   
+}
