@@ -1,5 +1,5 @@
  main{
-   height: 85vh;
+   height: 89vh;
    width: 100vw;
     
 }
@@ -10,18 +10,22 @@
    z-index: -1;
 }
 .videoText{
-    position: absolute;
-    margin: -30rem 20rem;
-    height:60vh ;
-}
-.searchText{
+    position: relative;
+    margin: -32% auto 0 auto;
+    height: 60vh ;
+    z-index: 1;
     display: flex;
     flex-direction: column;
-   justify-content: center;
-   align-items: center;
-  margin:12rem 0 -14rem 5rem ;
+    justify-content: space-between;
+    text-align: center;
 }
-.inputDiv{
+.small{
+    /* margin: 15rem; */
+    font-size: 6rem;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px black;
+}
+/* .inputDiv{
     display: flex;
     justify-content: space-evenly;
     margin: 15rem 5rem 15rem 1rem;
@@ -32,28 +36,41 @@
    border-radius: 2rem;
    padding:0.5rem 0.2rem;
 }
-.search-button{
-   border-radius: 0.8rem;
-   width: 5rem;
-}
-.search-button:hover{
-    background-color: rgb(89, 89, 171);
-}
-.margin{
+ */
+/* .margin{
     margin: 0.2rem;
-}
+} */
 
 .icons{
-    margin: -15rem 1rem;
+    margin: 0rem 1rem;
     display: flex;
    flex-direction: row;
-   font-size: 1rem;
-    padding: 1rem;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.4rem;
+    padding: 0.3rem;
+    
 }
-.icon{
-    color: black;
+.icon, .icon>a{
+    color: rgb(59, 10, 10);
+    padding: 0 0.2rem;
+    
 }
 .icon:hover{
-    color: white;
+    font-size: 1.8rem;
+}
+
+.search-button{
+    border-width: 0;
+    border-radius: 1.5rem;
+    width: 8rem;
+    padding: 0.6rem 0.4rem;
+    background-color: rgb(236, 236, 247);
+    color: black;
+}
+.search-button:hover{
+    background-color: rgb(43, 5, 5);
+    color: whitesmoke;
+    
 }
 

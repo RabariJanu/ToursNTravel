@@ -1,0 +1,93 @@
+.pkgPage{
+    width: 100vw;
+}
+.pkg-Img{
+   width: 100%; 
+   height: 80vh;
+   object-fit: cover;
+}
+.pkg-Img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.pkg-info{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    text-align: center;
+    opacity: 0.8;
+}
+.pkg-info h1{
+    font-size: 2.7rem;
+}
+.pkg-info p{
+    font-size: 1.4rem;
+    margin: 1rem;
+}
+.h1{
+    font-size: 3rem;
+    margin:3rem 0 3rem 30rem;
+}
+.pkgs{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pkgCard{
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #f1dcdc;
+    overflow: hidden;
+    width: 50vh;
+    flex-direction: column;
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.pkgCardImg{
+height: 30vh;
+object-fit: cover;
+}
+.pkgCardImg img{
+    width: 100%;
+    height:30vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+.pkgCardInfo{
+    padding: 1rem;
+}
+.pkgDsk{
+    margin: 0.2rem;
+    width: 15rem;
+}
+.pkgLocation{
+ margin: 0.1rem;
+ padding: 0.1rem;
+display: flex;
+justify-content: space-between;
+}
+.pkgLocation p{
+    color:blue;
+    margin: 0.1rem;
+    padding: 0.1rem;
+
+}
+.pkgPrice{
+margin: 0.1rem;
+padding: 0.1rem;
+display: flex;
+justify-content: space-between;
+
+}
+.pkgBtn{
+    height: 1.8rem;
+    width: 4rem;
+    margin: 0.2rem 0;
+    background:#5085af;
+}

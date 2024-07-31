@@ -5,6 +5,7 @@ import TopExperiences from '../components/Home/TopExperiences'
 import TopAdventures from '../components/Home/TopAdventures'
 import Bagpack from '../components/Home/Bagpack'
 import VideoSection from '../components/Home/VideoSection'
+import GetStart from '../components/Home/GetStart'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <TopExperiences/>
         <VideoSection />
         <TopAdventures/>
+        <GetStart />
     </>
   )
 }

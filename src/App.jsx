@@ -4,8 +4,11 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import { About } from './pages/About';
-import Packages from './pages/Packages';
-import ContactUs from './pages/ContactUs';
+import Packages from './pages/Packages'
+import Blog from './pages/Blog'
+import PackageDetails from './pages/PackageDetails';
+
+
 function App() {
   return (
     <>
@@ -14,7 +17,8 @@ function App() {
         <Route exact path='/' element={<Home/>}/>
         <Route exact path='/about' element={<About/>}/>
         <Route exact path='/packages' element={<Packages/>}/>
-        <Route exact path='/contact-us' element={<ContactUs/>}/>
+        <Route exact path='/packages/:id' element={<PackageDetails/>}/>
+        <Route exact path='/blog' element={<Blog/>}/>
       </Routes>
     <Footer/>
     </>

@@ -65,7 +65,7 @@
         margin: 0.3rem;
     }
     .grid p{
-        font-size: 1.1rem;
+        font-size: 1.1rem ;
     }
 
     .flex{
@@ -74,7 +74,7 @@
         margin: 0.8rem;
     }
     .flexicon{
-        font-size: 1rem;
+        font-size: 1rem ;
         color: rgb(26, 25, 25);
         margin: 0.2rem;
     }
@@ -90,11 +90,11 @@
      .one, .two  , .three{
          display: flex;
          flex-direction: column;
-        font-size: 1rem;
+        font-size: 1rem ;
         margin: 1rem;
      }
      .one span,.two span ,.three span{
-        font-weight: 600;
+        font-weight: 600 ;
      }
      .one a , .two a ,.three a{
          text-decoration: none;

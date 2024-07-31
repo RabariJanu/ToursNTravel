@@ -1,0 +1,28 @@
+.getStart{
+    margin-top: 2rem;
+    height: 50vh;
+    background-color: rgb(209, 219, 190);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.8rem;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+.gsH{
+    margin: 0.1rem;
+}
+.gsP{
+    margin: 0.2rem;
+    padding: 0.5rem;
+}
+.gsBtn{
+    width: 7rem;
+    height: 2rem;
+    background-color: rgb(170, 143, 143);
+    color: black;
+    padding-bottom: 0.2rem;
+    text-decoration: none;
+    text-align: center;
+}

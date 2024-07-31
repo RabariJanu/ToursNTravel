@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../styles/Home/VideoSection.css'
+import { Link } from 'react-router-dom'
 
 const VideoSection = () => {
   return (
@@ -13,7 +14,7 @@ const VideoSection = () => {
         <p>
           Uncover hidden gems and explore breathtaking destinations. Start your journey with us and create unforgettable memories.
         </p>
-        <button className="explore-button">Explore Now</button>
+      <Link to="/packages">  <button className="explore-button">Explore Now</button></Link>
      </div>
     </div>
   )

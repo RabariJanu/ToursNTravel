@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #f5f5f5;
+  background-color:white;
   padding:2rem;
 
 }
@@ -33,7 +33,7 @@
     margin: 1rem;
   }
   .adventureCards:hover {
-    transform: scale(1.01);
+    transform: scale(1.03);
     transition: transform 0.2s;
   }
   .adtureImg{

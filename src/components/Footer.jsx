@@ -1,15 +1,13 @@
-
-
 import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedin, FaLocationArrow, FaMobileAlt, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
-import '../styles/Footer.css';
+import '../styles/Footer.css'
 
 const Footer = () => {
   return (
     <footer className='footer'> 
           <video autoPlay muted loop className='video'>
-     <source src="video.mp4" type="video/mp4" />
+     <source src="/video.mp4" type="video/mp4" />
      </video>
 
     <div className="secContent">
@@ -65,8 +63,8 @@ const Footer = () => {
                              <span>Services</span>
                                   <a href="#"><FaAngleRight />Hotel</a>
                                    <a href="#"><FaAngleRight />Flight</a>
-                                   <a href="#"><FaAngleRight />Insurence</a>
-                                   <a href="#"><FaAngleRight />Medical</a>
+                                   <a href="#"><FaAngleRight />Package</a>
+                                   <a href="#"><FaAngleRight />Blog</a>
                          </div>
      
 

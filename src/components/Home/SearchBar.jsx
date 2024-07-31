@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../styles/Home/SearchBar.css'
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 
@@ -11,14 +12,13 @@ const SearchBar = () => {
      <source src="video3.mp4" type="video/mp4" />
      </video>
      
-
+      
      <div className="videoText">
-      <div className="searchText">
-        <h1 className="small">Time to travel!</h1>
-        <h2 className="big">Search your Destination</h2>
-      </div>
+      <div className='top'>
+            <h1 className="small">Time to Travel</h1>  
+      
 
-      <div className="inputDiv">
+      {/* <div className="inputDiv">
 
         <div className="dest margin">
           <label>Search your destination
@@ -53,7 +53,7 @@ const SearchBar = () => {
 
       <button className="search-button">Search</button>
 
-      </div>
+      </div> */}
 
 
       <div className="icons">
@@ -75,6 +75,11 @@ const SearchBar = () => {
             </a>
         </div>
         </div> 
+        </div>
+
+        <Link to="/packages">
+      <button className="search-button">Explore Now</button>
+      </Link>
 
       </div> 
     </main>

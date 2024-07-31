@@ -143,7 +143,7 @@ const TopDestinations = () => {
       </div>
 
     <div className="titleRight">
-<h5>"Explore diverse global destinations offering breathtaking landscapes, rich cultures, historic landmarks, and vibrant cityscapes for unforgettable travel experiences."</h5>    
+<h5 >"Explore diverse global destinations offering breathtaking landscapes, rich cultures, historic landmarks, and vibrant cityscapes for unforgettable travel experiences."</h5>    
 </div>
 
     </div>
